@@ -2,69 +2,634 @@
   	Flaticon icon font: Flaticon
   	Creation date: 02/10/2018 08:29
   	*/
-
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/Flaticon.woff") format("woff"),
-       url("../fonts/Flaticon.html") format("truetype"),
-       url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  }
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
-}
-
-.flaticon-send:before { content: "\f100"; }
-.flaticon-phone-call:before { content: "\f101"; }
-.flaticon-phone-receiver:before { content: "\f102"; }
-.flaticon-mail-black-envelope-symbol:before { content: "\f103"; }
-.flaticon-facebook-logo:before { content: "\f104"; }
-.flaticon-twitter:before { content: "\f105"; }
-.flaticon-google-plus-logo:before { content: "\f106"; }
-.flaticon-linkedin-logo:before { content: "\f107"; }
-.flaticon-reward:before { content: "\f108"; }
-.flaticon-enterprise:before { content: "\f109"; }
-.flaticon-certificate:before { content: "\f10a"; }
-.flaticon-working-team:before { content: "\f10b"; }
-.flaticon-web-design:before { content: "\f10c"; }
-.flaticon-computer-graphic:before { content: "\f10d"; }
-.flaticon-servers:before { content: "\f10e"; }
-.flaticon-digital-marketing:before { content: "\f10f"; }
-.flaticon-link:before { content: "\f110"; }
-.flaticon-happiness:before { content: "\f111"; }
-.flaticon-coffee-cup:before { content: "\f112"; }
-.flaticon-like:before { content: "\f113"; }
-.flaticon-building:before { content: "\f114"; }
-.flaticon-avatar:before { content: "\f115"; }
-.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f116"; }
-.flaticon-share:before { content: "\f117"; }
-.flaticon-instagram:before { content: "\f118"; }
-.flaticon-magnifying-glass:before { content: "\f119"; }
-.flaticon-group-meeting:before { content: "\f11a"; }
-.flaticon-chat:before { content: "\f11b"; }
-.flaticon-search:before { content: "\f11c"; }
-.flaticon-plane:before { content: "\f11d"; }
-.flaticon-calendar:before { content: "\f11e"; }
-.flaticon-price:before { content: "\f11f"; }
-.flaticon-check:before { content: "\f120"; }
-.flaticon-folder:before { content: "\f121"; }
-.flaticon-pin:before { content: "\f122"; }
-.flaticon-arrow:before { content: "\f123"; }
-.flaticon-expand-button:before { content: "\f124"; }
-.flaticon-earth:before { content: "\f125"; }
-.flaticon-back:before { content: "\f126"; }
+	
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.html") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+	
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-size: 20px;
+	    font-style: normal;
+	    margin-left: 20px;
+	}
+	
+	.flaticon-send:before {
+	    content: "\f100";
+	}
+	
+	.flaticon-phone-call:before {
+	    content: "\f101";
+	}
+	
+	.flaticon-phone-receiver:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-mail-black-envelope-symbol:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-facebook-logo:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-twitter:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-google-plus-logo:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-linkedin-logo:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-reward:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-enterprise:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-certificate:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-working-team:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-web-design:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-computer-graphic:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-servers:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-digital-marketing:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-link:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-happiness:before {
+	    content: "\f111";
+	}
+	
+	.flaticon-coffee-cup:before {
+	    content: "\f112";
+	}
+	
+	.flaticon-like:before {
+	    content: "\f113";
+	}
+	
+	.flaticon-building:before {
+	    content: "\f114";
+	}
+	
+	.flaticon-avatar:before {
+	    content: "\f115";
+	}
+	
+	.flaticon-facebook-placeholder-for-locate-places-on-maps:before {
+	    content: "\f116";
+	}
+	
+	.flaticon-share:before {
+	    content: "\f117";
+	}
+	
+	.flaticon-instagram:before {
+	    content: "\f118";
+	}
+	
+	.flaticon-magnifying-glass:before {
+	    content: "\f119";
+	}
+	
+	.flaticon-group-meeting:before {
+	    content: "\f11a";
+	}
+	
+	.flaticon-chat:before {
+	    content: "\f11b";
+	}
+	
+	.flaticon-search:before {
+	    content: "\f11c";
+	}
+	
+	.flaticon-plane:before {
+	    content: "\f11d";
+	}
+	
+	.flaticon-calendar:before {
+	    content: "\f11e";
+	}
+	
+	.flaticon-price:before {
+	    content: "\f11f";
+	}
+	
+	.flaticon-check:before {
+	    content: "\f120";
+	}
+	
+	.flaticon-folder:before {
+	    content: "\f121";
+	}
+	
+	.flaticon-pin:before {
+	    content: "\f122";
+	}
+	
+	.flaticon-arrow:before {
+	    content: "\f123";
+	}
+	
+	.flaticon-expand-button:before {
+	    content: "\f124";
+	}
+	
+	.flaticon-earth:before {
+	    content: "\f125";
+	}
+	
+	.flaticon-back:before {
+	    content: "\f126";
+	}
+	
+	.flaticon-001-smartphone:before {
+	    content: "\f127";
+	}
+	
+	.flaticon-002-windrose:before {
+	    content: "\f128";
+	}
+	
+	.flaticon-003-world-map:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-004-europe:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-005-map-7:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-006-map-6:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-007-america:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-008-planet-earth-3:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-009-butterfly:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-010-paper-plane:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-011-map-5:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-012-map-4:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-013-trees:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-014-pyramids:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-015-planet-earth-2:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-016-earth-grid:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-017-pin:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-018-australia:before {
+	    content: "\f111";
+	}
+	
+	.flaticon-019-earth-globe-3:before {
+	    content: "\f112";
+	}
+	
+	.flaticon-020-asia:before {
+	    content: "\f113";
+	}
+	
+	.flaticon-021-telescope:before {
+	    content: "\f114";
+	}
+	
+	.flaticon-022-africa:before {
+	    content: "\f115";
+	}
+	
+	.flaticon-023-earth-globe-2:before {
+	    content: "\f116";
+	}
+	
+	.flaticon-024-earth-globe-1:before {
+	    content: "\f117";
+	}
+	
+	.flaticon-025-sea-life:before {
+	    content: "\f118";
+	}
+	
+	.flaticon-026-geography-1:before {
+	    content: "\f119";
+	}
+	
+	.flaticon-027-volcano:before {
+	    content: "\f11a";
+	}
+	
+	.flaticon-028-geography:before {
+	    content: "\f11b";
+	}
+	
+	.flaticon-029-cactus:before {
+	    content: "\f11c";
+	}
+	
+	.flaticon-030-atlas:before {
+	    content: "\f11d";
+	}
+	
+	.flaticon-031-shore:before {
+	    content: "\f11e";
+	}
+	
+	.flaticon-032-map-3:before {
+	    content: "\f11f";
+	}
+	
+	.flaticon-033-map-2:before {
+	    content: "\f120";
+	}
+	
+	.flaticon-034-flag:before {
+	    content: "\f121";
+	}
+	
+	.flaticon-035-map-1:before {
+	    content: "\f122";
+	}
+	
+	.flaticon-036-panel:before {
+	    content: "\f123";
+	}
+	
+	.flaticon-037-human:before {
+	    content: "\f124";
+	}
+	
+	.flaticon-038-mountain:before {
+	    content: "\f125";
+	}
+	
+	.flaticon-039-planet-earth-1:before {
+	    content: "\f126";
+	}
+	
+	.flaticon-040-compass:before {
+	    content: "\f127";
+	}
+	
+	.flaticon-041-open-book:before {
+	    content: "\f128";
+	}
+	
+	.flaticon-042-storm:before {
+	    content: "\f129";
+	}
+	
+	.flaticon-043-planet-earth:before {
+	    content: "\f12a";
+	}
+	
+	.flaticon-044-search:before {
+	    content: "\f12b";
+	}
+	
+	.flaticon-045-cityscape:before {
+	    content: "\f12c";
+	}
+	
+	.flaticon-046-document:before {
+	    content: "\f12d";
+	}
+	
+	.flaticon-047-map:before {
+	    content: "\f12e";
+	}
+	
+	.flaticon-048-hot-air-balloon:before {
+	    content: "\f12f";
+	}
+	
+	.flaticon-049-plants:before {
+	    content: "\f130";
+	}
+	
+	.flaticon-050-earth-globe:before {
+	    content: "\f131";
+	}
+	
+	$font-Flaticon-001-smartphone: "\f100";
+	$font-Flaticon-002-windrose: "\f101";
+	$font-Flaticon-003-world-map: "\f102";
+	$font-Flaticon-004-europe: "\f103";
+	$font-Flaticon-005-map-7: "\f104";
+	$font-Flaticon-006-map-6: "\f105";
+	$font-Flaticon-007-america: "\f106";
+	$font-Flaticon-008-planet-earth-3: "\f107";
+	$font-Flaticon-009-butterfly: "\f108";
+	$font-Flaticon-010-paper-plane: "\f109";
+	$font-Flaticon-011-map-5: "\f10a";
+	$font-Flaticon-012-map-4: "\f10b";
+	$font-Flaticon-013-trees: "\f10c";
+	$font-Flaticon-014-pyramids: "\f10d";
+	$font-Flaticon-015-planet-earth-2: "\f10e";
+	$font-Flaticon-016-earth-grid: "\f10f";
+	$font-Flaticon-017-pin: "\f110";
+	$font-Flaticon-018-australia: "\f111";
+	$font-Flaticon-019-earth-globe-3: "\f112";
+	$font-Flaticon-020-asia: "\f113";
+	$font-Flaticon-021-telescope: "\f114";
+	$font-Flaticon-022-africa: "\f115";
+	$font-Flaticon-023-earth-globe-2: "\f116";
+	$font-Flaticon-024-earth-globe-1: "\f117";
+	$font-Flaticon-025-sea-life: "\f118";
+	$font-Flaticon-026-geography-1: "\f119";
+	$font-Flaticon-027-volcano: "\f11a";
+	$font-Flaticon-028-geography: "\f11b";
+	$font-Flaticon-029-cactus: "\f11c";
+	$font-Flaticon-030-atlas: "\f11d";
+	$font-Flaticon-031-shore: "\f11e";
+	$font-Flaticon-032-map-3: "\f11f";
+	$font-Flaticon-033-map-2: "\f120";
+	$font-Flaticon-034-flag: "\f121";
+	$font-Flaticon-035-map-1: "\f122";
+	$font-Flaticon-036-panel: "\f123";
+	$font-Flaticon-037-human: "\f124";
+	$font-Flaticon-038-mountain: "\f125";
+	$font-Flaticon-039-planet-earth-1: "\f126";
+	$font-Flaticon-040-compass: "\f127";
+	$font-Flaticon-041-open-book: "\f128";
+	$font-Flaticon-042-storm: "\f129";
+	$font-Flaticon-043-planet-earth: "\f12a";
+	$font-Flaticon-044-search: "\f12b";
+	$font-Flaticon-045-cityscape: "\f12c";
+	$font-Flaticon-046-document: "\f12d";
+	$font-Flaticon-047-map: "\f12e";
+	$font-Flaticon-048-hot-air-balloon: "\f12f";
+	$font-Flaticon-049-plants: "\f130";
+	$font-Flaticon-050-earth-globe: "\f131";
+	.flaticon-001-smartphone:before {
+	    content: "\f100";
+	}
+	
+	.flaticon-002-windrose:before {
+	    content: "\f101";
+	}
+	
+	.flaticon-003-world-map:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-004-europe:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-005-map-7:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-006-map-6:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-007-america:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-008-planet-earth-3:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-009-butterfly:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-010-paper-plane:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-011-map-5:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-012-map-4:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-013-trees:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-014-pyramids:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-015-planet-earth-2:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-016-earth-grid:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-017-pin:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-018-australia:before {
+	    content: "\f111";
+	}
+	
+	.flaticon-019-earth-globe-3:before {
+	    content: "\f112";
+	}
+	
+	.flaticon-020-asia:before {
+	    content: "\f113";
+	}
+	
+	.flaticon-021-telescope:before {
+	    content: "\f114";
+	}
+	
+	.flaticon-022-africa:before {
+	    content: "\f115";
+	}
+	
+	.flaticon-023-earth-globe-2:before {
+	    content: "\f116";
+	}
+	
+	.flaticon-024-earth-globe-1:before {
+	    content: "\f117";
+	}
+	
+	.flaticon-025-sea-life:before {
+	    content: "\f118";
+	}
+	
+	.flaticon-026-geography-1:before {
+	    content: "\f119";
+	}
+	
+	.flaticon-027-volcano:before {
+	    content: "\f11a";
+	}
+	
+	.flaticon-028-geography:before {
+	    content: "\f11b";
+	}
+	
+	.flaticon-029-cactus:before {
+	    content: "\f11c";
+	}
+	
+	.flaticon-030-atlas:before {
+	    content: "\f11d";
+	}
+	
+	.flaticon-031-shore:before {
+	    content: "\f11e";
+	}
+	
+	.flaticon-032-map-3:before {
+	    content: "\f11f";
+	}
+	
+	.flaticon-033-map-2:before {
+	    content: "\f120";
+	}
+	
+	.flaticon-034-flag:before {
+	    content: "\f121";
+	}
+	
+	.flaticon-035-map-1:before {
+	    content: "\f122";
+	}
+	
+	.flaticon-036-panel:before {
+	    content: "\f123";
+	}
+	
+	.flaticon-037-human:before {
+	    content: "\f124";
+	}
+	
+	.flaticon-038-mountain:before {
+	    content: "\f125";
+	}
+	
+	.flaticon-039-planet-earth-1:before {
+	    content: "\f126";
+	}
+	
+	.flaticon-040-compass:before {
+	    content: "\f127";
+	}
+	
+	.flaticon-041-open-book:before {
+	    content: "\f128";
+	}
+	
+	.flaticon-042-storm:before {
+	    content: "\f129";
+	}
+	
+	.flaticon-043-planet-earth:before {
+	    content: "\f12a";
+	}
+	
+	.flaticon-044-search:before {
+	    content: "\f12b";
+	}
+	
+	.flaticon-045-cityscape:before {
+	    content: "\f12c";
+	}
+	
+	.flaticon-046-document:before {
+	    content: "\f12d";
+	}
+	
+	.flaticon-047-map:before {
+	    content: "\f12e";
+	}
+	
+	.flaticon-048-hot-air-balloon:before {
+	    content: "\f12f";
+	}
+	
+	.flaticon-049-plants:before {
+	    content: "\f130";
+	}
+	
+	.flaticon-050-earth-globe:before {
+	    content: "\f131";
+	}
